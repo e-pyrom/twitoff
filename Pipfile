@@ -7,14 +7,16 @@ verify_ssl = true
 pylint = "<2.0.0"
 
 [packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 python-dotenv = "*"
 requests = "*"
 basilica = "*"
 tweepy = "*"
-flask = "*"
-flask-sqlalchemy = "*"
-flask-migrate = "*"
-pylint = "*"
+scikit-learn = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
